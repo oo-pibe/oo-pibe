@@ -1,15 +1,13 @@
 # oo-pibe
 
-I build small tools when something I'm using gets in the way. Mostly TypeScript, mostly for code that runs in a build step or on a server.
+I run [Road to Kickoff](https://roadtokickoff.com), a small football trip planner, and write most of the code behind it: the fixture and kickoff-time pipeline, the checks on whether a kickoff time can be trusted yet, and the tooling that turns match data into guides and posts. Bits of that occasionally turn out to be useful on their own and end up here.
+
+Mostly TypeScript, some Python. A lot of it is closer to go-to-market engineering than product work: harvesters, content pipelines, review gates. Most of it gets written with Claude Code these days.
 
 ## tz-at-point
 
-Exact IANA timezones for a fixed list of coordinates, resolved at build time so nothing is read at runtime. I wrote it after geo-tz couldn't find its data files inside a serverless function and the lightweight alternative put a Finnish border town in the Swedish timezone. It's on npm with provenance, and it ships a skill so coding agents can use it without reading the source.
+Exact IANA timezones for a fixed list of coordinates, resolved at build time so nothing is read at runtime. Extracted from Road to Kickoff after geo-tz couldn't find its data files in a serverless function and the lightweight alternative was an hour off at a border town. On npm; ships a skill so coding agents can use it without reading the source.
 
-[github.com/oo-pibe/tz-at-point](https://github.com/oo-pibe/tz-at-point) · [npm](https://www.npmjs.com/package/tz-at-point)
-
-## How I work
-
-I'd rather ship one thing that has been attacked properly than three that pass their own tests. Before tz-at-point went public it was fuzzed against geo-tz over millions of points, mutation-tested, and put through independent review. The docs say what it doesn't do as plainly as what it does.
+[repo](https://github.com/oo-pibe/tz-at-point) · [npm](https://www.npmjs.com/package/tz-at-point)
 
 Contact: contact@roadtokickoff.com
