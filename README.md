@@ -1,6 +1,6 @@
 # oo-pibe
 
-I run [Road to Kickoff](https://roadtokickoff.com), a small football trip planner, and write most of the code behind it: the fixture and kickoff-time pipeline, the checks on whether a kickoff time can be trusted yet, and the tooling that turns match data into guides and posts. Bits of that occasionally turn out to be useful on their own and end up here.
+I run [Road to Kickoff](https://roadtokickoff.com), a football trip planner, and write the code behind it: the fixture and kickoff-time pipeline, the checks on whether a kickoff time can be trusted yet, and the tooling that turns match data into guides and social posts. 
 
 Mostly TypeScript, some Python. A lot of it is closer to go-to-market engineering than product work: harvesters, content pipelines, review gates. Most of it gets written with Claude Code these days.
 
