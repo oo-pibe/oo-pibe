@@ -12,8 +12,6 @@ Exact IANA timezones for a fixed list of coordinates, resolved at build time so 
 
 ## audio-bed-check
 
-Three checks on a rendered audio bed or a voiceover mix: does the bed repeat itself, does its level jump at a join, does the voice sit far enough above it. Came out of the same video pipeline after a bed with a 7 dB join got past every automated check and was caught by ear. Python, ffmpeg, BS.1770 loudness in numpy; ships a skill too.
+If you render videos from a script, the background audio gets assembled by code and nobody listens to every file. This checks the rendered file for the three things that go wrong: the background clip was repeated to fill the time, the level jumps where two recordings were joined, or the voiceover is mixed too close to the background to be heard without effort. It exits non-zero when it finds one, so it can sit in a build. It came out of the same video pipeline after a bed with a 7 dB jump got past every automated check and was caught by ear. Python, ffmpeg; ships a skill too.
 
 [repo](https://github.com/oo-pibe/audio-bed-check) · [PyPI](https://pypi.org/project/audio-bed-check/)
-
-Contact: contact@roadtokickoff.com
