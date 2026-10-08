@@ -10,4 +10,10 @@ Exact IANA timezones for a fixed list of coordinates, resolved at build time so 
 
 [repo](https://github.com/oo-pibe/tz-at-point) · [npm](https://www.npmjs.com/package/tz-at-point)
 
+## audio-bed-check
+
+Three checks on a rendered audio bed or a voiceover mix: does the bed repeat itself, does its level jump at a join, does the voice sit far enough above it. Came out of the same video pipeline after a bed with a 7 dB join got past every automated check and was caught by ear. Python, ffmpeg, BS.1770 loudness in numpy; ships a skill too.
+
+[repo](https://github.com/oo-pibe/audio-bed-check) · [PyPI](https://pypi.org/project/audio-bed-check/)
+
 Contact: contact@roadtokickoff.com
