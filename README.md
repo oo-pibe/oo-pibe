@@ -14,4 +14,4 @@ Exact IANA timezones for a fixed list of coordinates, resolved at build time so 
 
 If you render videos from a script, the background audio gets assembled by code and nobody listens to every file. This checks the rendered file for the three things that go wrong: the background clip was repeated to fill the time, the level jumps where two recordings were joined, or the voiceover is mixed too close to the background to be heard without effort. It exits non-zero when it finds one, so it can sit in a build. Python, ffmpeg; ships a skill too.
 
-[repo](https://github.com/oo-pibe/audio-bed-check) · [PyPI](https://pypi.org/project/audio-bed-check/)
+[repo](https://github.com/oo-pibe/audio-bed-check) · [PyPI](https://pypi.org/project/audio-bed-check/) · listed in [Remotion's tooling docs](https://www.remotion.dev/docs/resources)
