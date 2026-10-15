@@ -1,12 +1,8 @@
 # oo-pibe
 
-I build the systems that let AI agents draft content I can trust: independent review gates that block publishing until a separate reviewer has read the page, data pipelines, and small tools published on npm and PyPI. I run them on my own business, [Road to Kickoff](https://roadtokickoff.com), football travel guides that agents research and draft.
-
-What I'd build for a revenue team: research and enrichment agents with evals, QA gates on AI-written outreach and battlecards, and checks that catch stale facts before a rep repeats them.
-
 ## review-seal
 
-Stops blog posts, outreach sequences, battlecards and docs kept in git from being committed until a separate AI reviewer has checked them against your checklist, and re-checks fact-based pages on a schedule. On real earlier versions of my guides it caught 4 of 4 in-page contradictions; on its own README it found four errors, one of them a GitHub fact that had changed since it was written. Claude Code plugin, git hook and GitHub Action.
+Commits of covered files wait until a separate Claude session has reviewed the current version against a checklist. Reviews can expire and get re-checked on a schedule. Built for docs and go-to-market content kept in git: outreach sequences, battlecards, blog posts. Claude Code plugin, git hook and GitHub Action.
 
 [repo](https://github.com/oo-pibe/review-seal) · [npm](https://www.npmjs.com/package/review-seal)
 
