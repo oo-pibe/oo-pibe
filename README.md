@@ -1,5 +1,11 @@
 # oo-pibe
 
+## floorboss
+
+A Claude Code plugin for booking meetings at an event. It drafts short outreach from your own contact list, has a separate critic read each draft, and asks you before every send if you turn sending on. Free and open source. Built by Panza Labs.
+
+[repo](https://github.com/Panza-Labs/floorboss)
+
 ## review-seal
 
 Commits of covered files wait until a separate Claude session has reviewed the current version against a checklist. Reviews can expire and get re-checked on a schedule. Built for docs and go-to-market content kept in git: outreach sequences, battlecards, blog posts. Claude Code plugin, git hook and GitHub Action.
@@ -17,9 +23,3 @@ If you render videos from a script, the background audio gets assembled by code 
 Exact IANA timezones for a fixed list of coordinates, resolved at build time so nothing is read at runtime. Built after geo-tz couldn't find its data files in a serverless function and the lightweight alternative was an hour off at a border town. Also added to timezone-boundary-builder's list of lookup libraries.
 
 [repo](https://github.com/oo-pibe/tz-at-point) · [npm](https://www.npmjs.com/package/tz-at-point)
-
-## floorboss
-
-A Claude Code plugin for booking meetings at an event. It drafts short outreach from your own contact list, has a separate critic read each draft, and asks you before every send if you turn sending on. Free and open source. Built by Panza Labs.
-
-[repo](https://github.com/Panza-Labs/floorboss)
