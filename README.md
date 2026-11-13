@@ -2,7 +2,7 @@
 
 ## floorboss
 
-A Claude Code plugin for booking meetings at an event. It drafts short outreach from your own contact list, has a separate critic read each draft, and asks you before every send if you turn sending on. Free and open source. Built by Panza Labs.
+A Claude Code plugin for booking meetings at an event. It drafts short outreach from your own contact list, has a separate critic read each draft, and asks you before every send if you turn sending on. Free and open source. 
 
 [repo](https://github.com/Panza-Labs/floorboss)
 
